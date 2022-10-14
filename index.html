@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/png" sizes="32x32" href="./imagens/favicon-32x32.png" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
+
+		<link rel="stylesheet" href="./src/css/reset.css" />
+		<link rel="stylesheet" href="./src/css/rolagem.css" />
+		<link rel="stylesheet" href="./src/css/estilos.css" />
+
+		<title>Meu Perfil</title>
+	</head>
+	<body>
+		<main class="cartao">
+			<div class="minhas-informacoes">
+				<img src="./src/imagens/eu.jpg" alt="foto de perfil" />
+				<h1 class="nome">Eduardo Vinicius</h1>
+				<h2 class="cargo">Estudante de Front-end</h2>
+			</div>
+
+			<div class="conteudo">
+				<ul class="abas">
+					<li id="sobre" class="aba selecionado">
+						<img src="./src/imagens/sobre.gif" alt="ícone de sobre mim" />
+					</li>
+
+					<li id="minhasRedes" class="aba">
+						<img src="./src/imagens/coracao.gif" alt="ícone de redes sociais" />
+					</li>
+				</ul>
+
+				<div class="informacoes-abas">
+					<div id="sobreContainer" class="informacao selecionado">
+						<h3 class="sub-titulo">Sobre</h3>
+						<div class="descricao">
+							<p>Oi! meu nome é Eduardo Vinicius Barbosa, seja bem-vindo(a)!</p>
+
+							<p>
+								Sou uma pessoa extremamente motivada para aprender e encarar novos <span>desafios</span>. Atualmente, estou em uma transição de área
+                                e busco minha primeira oportunidade no mercado de trabalho! Na segunda aba <span>(clique no coração)</span>, você pode conferir alguns links
+								que são importantes para conhecer um pouco mais dos meus projetos. Iniciei faz pouco tempo nos estudos, mas
+								a cada dia que passa aprendo coisas novas, e isso me deixa muito empolgado! Atualmente, estou estudando as seguintes
+								tecnologias:
+								<span>HTML, CSS, JavaScript, TypeScript e React.</span>
+								
+							</p>
+						</div>
+					</div>
+					<div id="minhasRedesContainer" class="informacao">
+						<h3 class="sub-titulo">Minhas Redes</h3>
+						<ul class="redes-sociais">
+							<li>
+								<a href="https://vercel.com/eduvinicius" target="_blank" class="curriculo">Meus Projetos</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/eduardo-viniciusb/" target="_blank" class="linkedin">Linkedln</a>
+							</li>
+							<li>
+								<a href="https://github.com/eduvinicius" target="_blank" class="github">GitHub</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script src="./src/js/index.js"></script>
+	</body>
+</html>
